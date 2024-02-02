@@ -16,7 +16,10 @@ function writePassword() {
 
 // Prompts that come up after you click generate password
 function generatePassword() {
-  var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 12 but less than 128.");
+  var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 7 but less than 129.");
+  if (passwordLength < 8 || passwordLength > 128){
+    return alert("password must be at least 8 characters but no more than 128!");
+  }
 
   var numbers = confirm("Do you want numbers in your password?");
 
@@ -57,31 +60,32 @@ function generatePassword() {
     }
 
 };
+   let functions=[]
 
   // Checks to make sure user selected ok for all and uses empty minimums from above
-
+  
   if (numbers === true) {
     minimumNumbers = functionArray.getNumbers();
     minimumCount++;
-
+    functions.push(functionArray.getNumbers)
   }
 
   if (lowerCases === true) {
     minimumLowerCases = functionArray.getLowerCases();
     minimumCount++;
-
+    functions.push(functionArray.getLowerCases)
   }
 
   if (upperCases === true) {
     minimumUpperCases = functionArray.getUpperCases();
     minimumCount++;
-
+    functions.push(functionArray.getUpperCases)
   }
 
   if (special === true) {
     minimumSpecialCharacters = functionArray.getSpecialCharacters();
     minimumCount++;
-
+    functions.push(functionArray.getSpecialCharacters)
   }
 
   // empty string variable for the for loop below
@@ -89,10 +93,11 @@ function generatePassword() {
 
   // loop getting random characters
   for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
-    var randomNumberPicked = Math.floor(Math.random() * 4);
+   // var randomNumberPicked = Math.floor(Math.random() * 4);
 
-    randomPasswordGenerated += randomNumberPicked;
-
+   // randomPasswordGenerated += randomNumberPicked;
+    let randomfunction = functions[Math.floor(Math.random()*functions.length)]
+    randomPasswordGenerated+=randomfunction()
   }
 
   // to make sure characters are added to the password
