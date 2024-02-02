@@ -2,10 +2,10 @@
 <h2>generates password after user chooses password length, whether include numbers, lowercases, upper cases and special characters</h2>
 <p>![visit me live @](https://ktung2018.github.io/PasswordGenerator)</p>
 
-![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/a01f2352-b701-4824-a371-c724f3920807)
-![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/9299841e-9677-47e7-99a4-07fc4b4eb798)
-![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/4890fba0-2d6f-4d67-b787-3ca5e73af182)
-![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/6fc5d489-787c-4054-9b78-c9651e85d4dc)
-
-
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/c2864fd4-7d83-4d36-afdd-4631fc7ffcb1)
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/bf8a7072-54ab-4ca6-bc4d-c9876488501d)
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/6318d61b-15d5-48f0-8f8d-248b82949a6a)
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/b0365d13-dab4-48a7-aa80-0361a0134548)
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/e1bf1b0e-b596-43ba-affe-8fecd232a011)
+![image](https://github.com/ktung2018/PasswordGenerator/assets/35645038/0356bd53-b5c5-4baf-a131-5bc28c3003c7)
 
